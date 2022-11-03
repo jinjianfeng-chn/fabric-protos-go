@@ -29,6 +29,7 @@ const (
 	ChaincodeSpec_NODE      ChaincodeSpec_Type = 2
 	ChaincodeSpec_CAR       ChaincodeSpec_Type = 3
 	ChaincodeSpec_JAVA      ChaincodeSpec_Type = 4
+	ChaincodeSpec_EXTERNAL  ChaincodeSpec_Type = 5
 )
 
 var ChaincodeSpec_Type_name = map[int32]string{
@@ -37,6 +38,7 @@ var ChaincodeSpec_Type_name = map[int32]string{
 	2: "NODE",
 	3: "CAR",
 	4: "JAVA",
+	5: "EXTERNAL",
 }
 
 var ChaincodeSpec_Type_value = map[string]int32{
@@ -45,6 +47,7 @@ var ChaincodeSpec_Type_value = map[string]int32{
 	"NODE":      2,
 	"CAR":       3,
 	"JAVA":      4,
+	"EXTERNAL":  5,
 }
 
 func (x ChaincodeSpec_Type) String() string {
